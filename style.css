@@ -1,0 +1,133 @@
+
+body {
+  background-color:black;
+}
+
+#info{
+  border: white solid 3px;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.marcador{
+  color: red;
+  text-align: center;
+}
+
+#nivel{
+  display: inline-block;
+}
+.container{
+  width: 800px;
+  margin: 50px;
+}
+
+.row div{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.brick {
+  background-color: blue;  
+  background-size: contain;
+}
+
+.coin {
+  background-image: url('img/unnamed.gif');
+  background-size: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pacman {
+  background-image: url('img/pacman.gif');
+  background-size: contain;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top:430px; 
+  left:258px;
+}
+
+.empty{
+  width: 20px;
+  height: 20px;
+}
+
+.cherry {
+  background-image: url('img/cherry.gif');
+  background-size: contain;
+}
+
+.rojo{
+  background-image: url('img/rojo.gif');
+  background-size: contain; 
+}
+
+.rosa{
+  background-image: url('img/pink.gif');
+  background-size: contain; 
+}
+
+.celeste{
+  background-image: url('img/celeste.gif');
+  background-size: contain; 
+}
+
+.naranja{
+  background-image: url('img/naranjo.gif');
+  background-size: contain; 
+}
+
+#how_to_play{
+  background-image: url('img/howToPlay.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#audio{
+  display: none
+}
+#audio2{
+  display: none
+}
+#audio3{
+  display: none
+}
+
+#boton {
+	box-shadow:inset 0px 0px 1px -20px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 11px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #ded17c;
+  margin-bottom: 15px;
+}
+
+#boton:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+
+#boton:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free fire 4k edition</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>  
+    <div class="container">
+      <audio id="audio" controls>
+        <source type="audio/mpeg" src="sounds/Sonidos_ Pacman.mp3">
+      </audio>
+      <audio id="audio2" controls>
+        <source type="audio/mpeg" src="sounds/waka_estesiquesi_mezcla.mp3">
+      </audio>
+      <audio id="audio3" controls>
+        <source type="audio/mpeg" src="sounds/morido_mezcla.mp3">
+      </audio>
+      <div id="nivel"></div>
+      <div id="info">
+        <h2 class="marcador">HI-score</h2>
+        <h3 id="maxScore">10000</h3>
+        <h2 class="marcador">Score</h2>
+        <h3 id="Score">0</h3>
+        <h3 class="marcador">1UP</h3>
+        <h3 id="vidas">3</h3>
+        <input id="boton" type="button" value="Reset" onclick="location.reload()"/>
+      </div>
+      <div id="how_to_play"></div>
+      <div id="pacman"></div>
+      <div id="rojo"></div>
+    </div>
+    <script src="codigo-fuente-frifair.js"></script>
+  </body>
+</html>
